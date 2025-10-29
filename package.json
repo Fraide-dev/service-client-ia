@@ -1,0 +1,17 @@
+{
+  "name": "service-client-ia",
+  "version": "1.0.0",
+  "description": "Service client intelligent avec IA - Déployé sur Render",
+  "scripts": {
+    "start": "node node_modules/node-red/red.js --userDir ./data"
+  },
+  "dependencies": {
+    "node-red": "^3.0.0",
+    "node-red-dashboard": "^3.0.0",
+    "node-red-node-ui-table": "^0.1.6",
+    "axios": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
