@@ -1,9 +1,9 @@
 {
-  "name": "service-client-ia",
+  "name": "voice-ia-service",
   "version": "1.0.0",
-  "description": "Service client intelligent avec IA - Déployé sur Render",
+  "description": "Service vocal intelligent avec IA",
   "scripts": {
-    "start": "node node_modules/node-red/red.js --userDir ./data"
+    "start": "npx node-red --userDir ./data --port 10000"
   },
   "dependencies": {
     "node-red": "^3.1.0",
@@ -11,7 +11,7 @@
     "axios": "^1.6.0"
   },
   "engines": {
-    "node": ">=18"
+    "node": "18.x"
   },
   "license": "MIT"
 }
