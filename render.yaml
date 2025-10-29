@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: service-client-ia
+    name: voice-ia-service
     env: node
     plan: free
     buildCommand: npm install
@@ -9,8 +9,6 @@ services:
       - key: NODE_RED_USERNAME
         value: admin
       - key: NODE_RED_PASSWORD
-        value: gtf19011974
+        value: 123456
       - key: PORT
-        value: 10000
-      - key: NODE_RED_ENABLE_PROJECTS
-        value: "true"
+        value: "10000"
