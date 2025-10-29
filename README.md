@@ -1,14 +1,14 @@
-# Service Client IA - Node-RED
+# 🤖 Service Client IA - Node-RED
 
 Service client intelligent avec IA, déployé sur Render.com.
 
-## Fonctionnalités
+## 🚀 Fonctionnalités
 
-- Réponses IA automatiques
-- Analyse de sentiment
-- Support multilingue (FR/EN)
-- Dashboard temps réel
-- Sans API externe nécessaire
+- 🤖 Réponses IA automatiques
+- 😊 Analyse de sentiment
+- 🌍 Support multilingue (FR/EN)
+- 📊 Dashboard temps réel
+- 🔧 Sans API externe nécessaire
 
 ## 🛠️ Déploiement
 
