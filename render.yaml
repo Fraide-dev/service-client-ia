@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: service-client-ia
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_RED_USERNAME
+        value: admin
+      - key: NODE_RED_PASSWORD
+        value: gtf19011974
+      - key: PORT
+        value: 10000
